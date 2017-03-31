@@ -1,0 +1,52 @@
+/* Universal Styling */
+
+html {
+  font-size: 16px;
+  font-family: "Georgia", serif;
+}
+
+body {
+  width: 960px;
+}
+/* Header */
+
+.mobile-nav {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-nav nav {
+  display: flex;
+  align-items: center;
+}
+/* Banner */
+
+
+/* Articles */
+
+
+/* Majors */
+
+
+/* Thesis */
+
+
+/* Footer */
