@@ -6,8 +6,9 @@ html {
 }
 
 body {
-  width: 960px;
+  line-height: 1;
 }
+
 /* Header */
 
 .mobile-nav {
@@ -36,6 +37,20 @@ header {
 .desktop-nav nav {
   display: flex;
   align-items: center;
+  padding-right: 1.5rem
+  /*flex-direction: row;*/
+}
+
+.desktop-nav nav ul {
+  display: flex;
+}
+
+.desktop-nav nav ul li {
+  padding-left: 1rem;
+}
+
+ul {
+  list-style: none;
 }
 /* Banner */
 
