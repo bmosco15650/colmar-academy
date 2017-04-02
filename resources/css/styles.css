@@ -33,6 +33,7 @@ a:hover {
   font-family: "Dosis", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
+  padding: 0.5rem 0;
 }
 
 .description p {
@@ -251,7 +252,47 @@ banner .feature {
 
 /* Majors */
 
+.majors.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #696969;
+}
 
+.majors.container h2 {
+  color: #fff8dc;
+  padding: 2rem 0;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.course {
+  width: 25%;
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.course img {
+  width: 100%;
+}
+
+.course .description {
+  padding: 1rem 0 1.5rem 1rem;
+}
+
+.course .description h4 {
+  padding-bottom: 0.5rem;
+}
+
+.course .description p {
+  width: 90%;
+}
 /* Thesis */
 
 
