@@ -9,6 +9,39 @@ body {
   line-height: 1;
 }
 
+ h2 {
+  font-size: 2.75rem;
+  font-weight: 900;
+  color: #a52a2a;
+}
+
+a {
+  color: #a52a2a;
+}
+
+a:hover {
+  color: #ff7f50;
+}
+
+.description h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #696969;
+}
+
+.description span {
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.description p {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 /* Header */
 
 .mobile-nav {
@@ -62,14 +95,6 @@ header {
 
 .desktop-nav nav ul li {
   padding-left: 1rem;
-}
-
-nav ul li a {
-  color: #a52a2a;
-}
-
-nav ul li a:hover {
-  color: #ff7f50;
 }
 
 ul {
@@ -141,13 +166,88 @@ banner .feature {
 
 /* Articles */
 
+.article-list .article .article-images .mobile {
+  display: none;
+}
+
 .articles {
   display: flex;
   width: 100%;
   background-color: #fff;
 }
 
+.articles .main {
+  width: 60%;
+  margin: 1rem 2rem;
+  padding-bottom: 2rem;
+}
 
+.articles .main img {
+  width: 100%;
+  margin-top: 1rem;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.main-article {
+  padding-right: 2rem;
+}
+
+.main-article h2 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.main-article p {
+  padding: 0 0 1rem 0;
+}
+
+.main-article span {
+  font-family: "Dosis", sans-serif;
+  font-size: 0.95rem;
+}
+
+.list.container {
+  width: 40%;
+  border-left: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.article-list .article {
+  display: flex;
+  width: 100%;
+}
+
+.article-list .article.one {
+  border-bottom: 1px solid lightgrey;
+}
+
+.article-images {
+  padding: 1rem;
+  width: 35%;
+}
+
+.article-images img {
+  width: 100%;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+}
+
+.article-list .article .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1;
+  width: 65%;
+  padding-left: 0.6rem;
+}
+
+.article.highlighted {
+  background-color: #deb887;
+}
 
 /* Majors */
 
