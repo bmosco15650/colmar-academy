@@ -2,7 +2,7 @@
 
 html {
   font-size: 16px;
-  font-family: "Georgia", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -34,6 +34,21 @@ header {
   align-items: center;
 }
 
+.logo .title {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.logo .title a {
+  padding-left: 0.25rem;
+  letter-spacing: 0.125rem;
+}
+
+.logo .title .academy {
+  color: #a52a2a;
+  margin-left: 0.75;
+}
+
 .desktop-nav nav {
   display: flex;
   align-items: center;
@@ -49,13 +64,89 @@ header {
   padding-left: 1rem;
 }
 
+nav ul li a {
+  color: #a52a2a;
+}
+
+nav ul li a:hover {
+  color: #ff7f50;
+}
+
 ul {
   list-style: none;
 }
 /* Banner */
 
+banner {
+  display: flex;
+  width: 100%;
+  background-color: #696969;
+}
+
+.banner-image {
+  width: 60%;
+  padding: 1.5rem 0 1.5rem 2rem;
+}
+
+.banner-image img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+
+banner .feature {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 2.5rem;
+}
+
+.feature .headline {
+  line-height: 1.1;
+}
+
+.feature .headline h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 0.9;
+  color: #fff8dc;
+}
+
+.feature .headline h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #deb887;
+  padding-top: 1.25rem;
+}
+
+.feature .start {
+  width: 9rem;
+  background-color: #a52a2a;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.feature .start a {
+  color: #fff8dc;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
 
 /* Articles */
+
+.articles {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
+
 
 
 /* Majors */
